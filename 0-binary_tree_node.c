@@ -7,7 +7,7 @@
  *
  * @value: val to put in the new node
  *
- * Return: Pointer to newly created node or 
+ * Return: Pointer to newly created node or
  * ...return NULL upon  failure
  */
 
