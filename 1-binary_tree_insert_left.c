@@ -1,7 +1,8 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_insert_left - func will insert  node as the left-child of another node
+ * binary_tree_insert_left - func will insert  node as
+ * ....the left-child of another node
  *
  * @parent: ptr to the node into which we'll insert the left-child
  *
@@ -19,7 +20,7 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 	if (!parent)
 	return (NULL);
 
-	
+
 	new = malloc(sizeof(binary_tree_t));
 	if (!new)
 	return (NULL);
